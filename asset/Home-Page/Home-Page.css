@@ -23,6 +23,7 @@ body {
     margin-right: auto;
     animation-name: bidy;
     animation-duration: 2s;
+    overflow-x: hidden;
 }
 
 @keyframes bidy {
@@ -116,6 +117,7 @@ body {
 .menu-icon {
     font-size: 24px;
 }
+
 .select {
     color: #0C2785;
 }
@@ -137,7 +139,8 @@ body {
 
 .more-box-left {
     width: 40%;
-} 
+}
+
 .titel {
     font-size: 26px;
     font-weight: 600;
@@ -173,11 +176,12 @@ body {
 .more-Box-Right {
     width: 60%;
     position: relative;
+    margin-right: 10%;
 }
 
 .wallpaper {
-    width: 550px;
-    height: 320px;
+    width: 330px;
+    height: 350px;
     background-color: #0C2785;
     margin-right: 30px;
     position: absolute;
@@ -187,9 +191,10 @@ body {
     position: absolute;
     margin-right: 45px;
     margin-top: 15px;
-    background-color: #707070;
-    width: 540px;
-    height: 310px;
+    background: url(../image/131040476.jpg);
+    background-position: center;
+    width: 330px;
+    height: 350px;
     border-top-left-radius: 50px;
     border-bottom-right-radius: 50px;
 }
@@ -228,7 +233,6 @@ body {
 .Imag_RIght-four {
     width: 200px;
     height: 200px;
-    background-color: #707070;
     margin-bottom: 20px;
 }
 
@@ -886,6 +890,7 @@ footer {
     .Text-Conteyner {
         width: 96%;
     }
+
     .Text-Services {
         width: 100%;
     }
@@ -966,9 +971,11 @@ footer {
         margin-left: 0;
         margin-right: auto;
     }
+
     .text {
         margin-top: 1rem;
     }
+
     .spenser-more {
         margin-top: 350px;
     }
@@ -1003,39 +1010,49 @@ footer {
     .Services_right .Services-box {
         margin-top: 0;
     }
+
     .spenser-services {
         margin-top: 1250px;
     }
+
     .line-box {
         flex-direction: column;
         height: 400px;
     }
+
     .skils-box {
         flex-direction: column;
         height: 810px;
         margin-top: 2rem;
     }
+
     .what-hire {
         margin-top: 1rem;
     }
+
     .hire-left-box {
         width: 99%;
     }
+
     .hire-content {
         width: 95%;
     }
+
     .line-box {
         height: 280px;
         padding: 10px 0;
     }
+
     .Border-light {
         width: 40%;
     }
+
     .line-left {
         width: 50%;
         margin-left: auto;
         margin-right: auto;
     }
+
     footer {
         width: 95%;
     }
@@ -1043,6 +1060,7 @@ footer {
     .my-name {
         width: 60%;
     }
+
     .mini-menu {
         width: 100%;
     }
