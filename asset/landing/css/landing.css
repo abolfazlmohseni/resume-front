@@ -145,14 +145,6 @@ body {
     height: 78px;
 }
 
-.imag-myweb {
-    /* background: url(../../images/20250507_211950_1958520505.jpg);
-    /* background-size: cover; 
-    background-position: center;
-    background-repeat: no-repeat;
-    width: 100%; */
-}
-
 .float-animation {
     animation: float 4s ease-in-out infinite;
 }
@@ -400,7 +392,6 @@ body {
     --tw-contain-style:
 }
 
-/* ! tailwindcss v3.4.16 | MIT License | https://tailwindcss.com */
 *,
 ::after,
 ::before {
@@ -1561,5 +1552,5 @@ video {
 }
 
 input {
-    outline: none;
+    outline: none !important;
 }
