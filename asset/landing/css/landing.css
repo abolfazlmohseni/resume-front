@@ -219,8 +219,9 @@ body {
 }
 
 .imag {
-    background: url(../../images/ابوالفضل\ محسنی.jpg);
+    /* background: url(../../images/ابوالفضل\ محسنی.jpg); */
     background-size: cover;
+    overflow: hidden;
 }
 
 .imag2 {
